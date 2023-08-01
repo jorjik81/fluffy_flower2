@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+   }
+    body {
+        background-color: #a2cce3;
+    } 
+    .header  {
+        padding: 2px 0px 0px px; /* changes the size of the header section*/
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
+        background-color: #11252f;
+        color: #bfd56fe1;
+    } 
+    .header h1  {
+        display: inline-block; /* sets elements in one line*/
+        font-size: 47px;
+    }
+    .header h1 .seo {   /* changes the color for the three letters in H1 element*/
+        color: #89af82;
+    }
+    .header nav {     /* adjusts position of nav links*/      
+        margin-right: 10px;
+        float: right;
+        font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+        font-size: 22px;
+    }
+    .header nav ul {
+        list-style-type: none;
+    }
+    .header nav ul li {
+        display: inline-block; /* sets all header elements at in line at the top of the page*/
+        margin-left: 30px;  
+    }
+    a {
+        color: #edc8ca;
+        text-decoration:underline;
+        box-sizing: border-box ;
+        background-color: #577557; /* Set the background color of the navigation box */
+        border: 1px solid rgba(236, 237, 142, 0.514); /* Set the black border of 1px */
+        border-radius: 5px; /* Add some border radius for a rounded corner effect */
+        padding: 3px 10px 10px 10px; /* Add some padding to the navigation box */
+      }
+    nav{
+        margin-top: 1%;
+    }
+    .him {
+        
+        width: 100%;
+        height: 120px;
+        margin:1% 0% 0% 0%;
+        padding: 0% % 0% 0%;
+    }
+    h2{
+        float: right;
+        font-size:35px;
+        margin-right:  1%
+    }
+    .inheader{
+        display:flow-root;
+    }
+    p { 
+        margin-left: 25%;
+        margin-top: 10px;
+    }
+    .bigger-image {
+        height: 600px; /*size and parameters for the picture below the header*/
+        width: 75%;
+        margin-top: 10px;
+        margin-left: 25%;
+        background-size:cover;
+        background-position: center;
+        box-sizing:border-box;
+        border: 6px solid rgb(18, 111, 177);
+        border-radius: 3px;
+    }
+    
