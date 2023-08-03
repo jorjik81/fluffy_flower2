@@ -1,44 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="stylesheet" href="./assets/style.css"/>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css" />
     <title>Personal website</title>
 </head>
+
 <body>
     <header class="header">
         <h1><span class="seo">G</span>iorgi
-            <span class="seo">J</span>orjadze</h1>
+            <span class="seo">J</span>orjadze
+        </h1>
         <nav>
             <ul>
                 <li>
-                    <a href="#about-me">About</a>
+                    <a href="#about">About</a>
                 </li>
                 <li>
-                    <a href="#">Work</a>
+                    <a href="#work">Work</a>
                 </li>
                 <li>
-                    <a href="#">Contact Me</a>
+                    <a href="#contact">Contact Me</a>
                 </li>
             </ul>
         </nav>
         <section class="inheader">
-        <img src="assets/images/visuals-000537528600-ZgrVm3-original.jpg"  class="him" alt="header image"/>
-            <h2>Life As An Art</h2>
-        </section>    
-        </header> 
-        <p id="about-me" class="text">Giorgi Jorjadze, the accomplished cellist from Georgia who has embraced Brooklyn as his home,
-             is a true renaissance soul. Beyond his musical endeavors as a performer, teacher, and luthier, 
-             Giorgi has delved into the world of coding and found a new passion. Embracing the art of programming,
-              he now spends his time exploring the intricacies of coding languages and software development.
-               With the same dedication and enthusiasm that he brings to his music, Giorgi has found joy in this new creative outlet,
-                broadening his horizons and adding another dimension to his already diverse skill set. 
-                As he continues to nurture his love for music, photography, cooking, and now coding, 
-                Giorgi exemplifies a life enriched by embracing various forms of art and expression.
-        </p> 
-        <section class="bigger-image" name="background image">
-          <img src="assets\images\21192002_10154945384905975_8005979670611456_n.jpg" alt=" Big Image"/> 
+            <img src="assets/images/visuals-000537528600-ZgrVm3-original.jpg" class="him" alt="header image" />
+            <h2>Life As Art</h2>
         </section>
+    </header>
+    <main>
+        <section id="about" class="about">
+            <div class="heading">
+                <h1>About Me</h1>
+            </div>
+            <div class="content">
+                <p>Giorgi Jorjadze, the accomplished cellist from Georgia who has embraced Brooklyn as his home,
+                    is a true renaissance soul. Beyond his musical endeavors as a performer, teacher, and luthier,
+                    Giorgi has delved into the world of coding and found a new passion. Embracing the art of programming,
+                    he now spends his time exploring the intricacies of coding languages and software development.
+                    With the same dedication and enthusiasm that he brings to his music, Giorgi has found joy in this new
+                    creative outlet,
+                    broadening his horizons and adding another dimension to his already diverse skill set.
+                    As he continues to nurture his love for music, photography, cooking, and now coding,
+                    Giorgi exemplifies a life enriched by embracing various forms of art and expression.</p>
+            </div>
+        </section>
+        <section id="work" class="work">
+            <div class="heading">
+                <h1>My Work</h1>
+            </div>
+            <div class="content">
+                <a target="_blank" href="https://drive.google.com/drive/folders/0B8yFFDpT3LJVRV9oTk0wWTN1dDQ?resourcekey=0-MLqd64Yc5aFNXoUxYF322Q&usp=sharing">
+                <div class="firstImg">
+                    <img  src="assets\images\kitkatkit.jpg" alt="Project one" />
+                    <figcaption class="image-caption">Photography Works</figcaption>
+                </div>
+            </a>
+                <div class="grid">
+                    <a href="https://www.youtube.com/@Giorgijorjadze/featured">
+                    <div class="smallImg">
+                        <img src="assets\images\tape.jpg" alt="project one">
+                        <figcaption class="image-caption">My Youtube Channel</figcaption>
+                    </div>
+                    </a>
+                    <a  href= "https://www.linkedin.com/in/giorgi-jorjadze-7189a862/">
+                    <div class="smallImg">
+                        <img src="assets\images\333.jpg" alt="project two">
+                        <figcaption class="image-caption">My LinkedIn</figcaption>
+                    </div>
+                    </a>
+                    <a href="https://github.com/jorjik81">
+                    <div class="smallImg">
+                        <img src="assets\images\neuron.jpg" alt="project three">
+                        <figcaption class="image-caption">My GitHub</figcaption>
+                    </div>
+                    </a>
+                    <a href="https://git.bootcampcontent.com/jorjik81-aaeVDD">
+                    <div class="smallImg">
+                        <img src="assets\images\view.webp" alt="project four">
+                        <figcaption class="image-caption">My GitLab</figcaption>
+                    </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="contact">
+            <div class="heading">
+                <h1>Contact Me</h1>
+            </div>
+            <div class="content">
+                <ul class="phone">
+                    <li>
+                        <h5>Phone: <a href="tel:5555555555">(555) 555-5555</a></h5>
+                    </li>
+                    <li>
+                        <h5>Email: <a href="mailto:jorjik81@gmail.com">jorjik81@gmail.com</a></h5>
+                    </li>
+                    <li>
+                        <h5>LinkedIn: <a href="https://www.linkedin.com/in/giorgi-jorjadze-7189a862/">Giorgi Jorjadze</a></h5>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <footer>
+            <p>© 2023 Giorgi Jorjadze | All rights reserved.</p>
+        </footer>
+    </main>
+    <!-- <div class="text">
+        <p id="about-me">Giorgi Jorjadze, the accomplished cellist from Georgia who has embraced Brooklyn as his home,
+            is a true renaissance soul. Beyond his musical endeavors as a performer, teacher, and luthier,
+            Giorgi has delved into the world of coding and found a new passion. Embracing the art of programming,
+            he now spends his time exploring the intricacies of coding languages and software development.
+            With the same dedication and enthusiasm that he brings to his music, Giorgi has found joy in this new
+            creative outlet,
+            broadening his horizons and adding another dimension to his already diverse skill set.
+            As he continues to nurture his love for music, photography, cooking, and now coding,
+            Giorgi exemplifies a life enriched by embracing various forms of art and expression.
+        </p>
+        <aside class="aside">
+            <section class="about">
+                <h3>About Me</h3>
+            </section>
+        </aside>
+    </div>
+    <main class="work">
+        <figure class="image-container">
+            <img class="bigger-image" src="assets\images\kitkatkit.jpg" alt="Big Image" />
+            <figcaption class="image-caption">My Life</figcaption>
+        </figure>
+        <aside class="aside">
+
+    </main>
+    <section class="image-grid">
+        <div class="image-container">
+            <img src="assets\5.jpg" alt="Image 1">
+            <figcaption>GitHub repo</figcaption>
+        </div>
+        <div class="image-container">
+            <img src="assets\5.jpg" alt="Image 2">
+            <figcaption>linked in</figcaption>
+        </div>
+        <div class="image-container">
+            <img src="assets\5.jpg" alt="Image 3">
+            <figcaption>My Photos</figcaption>
+        </div>
+        <div class="image-container">
+            <img src="assets\5.jpg" alt="Image 4">
+            <figcaption>Resume</figcaption>
+        </div>
+    </section> -->
+    <!-- <footer class="contactme">
+
+        <section class="contact">
+            <h3>Contact Me</h3>
+        </section>
+        </aside>
+        <ul class="phone">
+            <li>
+                <a>Phone</a>
+            </li>
+            <li>
+                <a>Email</a>
+            </li>
+            <li>
+                <a>facebook</a>
+            </li>
+        </ul>
+    </footer> -->
 </body>
+
 </html>
