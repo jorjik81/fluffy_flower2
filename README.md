@@ -30,7 +30,6 @@ The website serves as a portfolio to showcase my various interests and talents. 
 
 ## Contact
 If you have any questions or would like to get in touch with me, you can reach me through the following channels:
-- Phone: (555) 555-5555
 - Email: jorjik81@gmail.com
 - LinkedIn: Giorgi Jorjadze (https://www.linkedin.com/in/giorgi-jorjadze-7189a862/)
 
@@ -38,5 +37,6 @@ If you have any questions or would like to get in touch with me, you can reach m
 This project is licensed under the MIT License (LICENSE). 
 
 ## Live Website 
+(<https://jorjik81.github.io/fluffy_flower2/>)
 
 ## Thank you for reviewing my work!
