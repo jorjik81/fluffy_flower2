@@ -15,7 +15,7 @@ The website serves as a portfolio to showcase my various interests and talents. 
 
 ## Screenshots
 ![(Homepage)](<assets/screenshots/Screenshot (01).png>)   
-![(About-Me)](<assets\screenshots\Screenshot (02).png>)   
+![(About)](<assets\screenshots\Screenshot (02).png>)   
 ![(Work)](<assets\screenshots\Screenshot (03).png>)
 ![(Contact)](<assets\screenshots\Screenshot (04).png>)
 
