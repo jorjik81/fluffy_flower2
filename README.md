@@ -14,10 +14,10 @@ This repository contains the code for my personal website. The website showcases
 The website serves as a portfolio to showcase my various interests and talents. It includes sections about me, my work, and how to get in touch with me.
 
 ## Screenshots
-![Homepage](<assets\screenshots\Screenshot (01).png>)
-![About Me](<assets\screenshots\Screenshot (02).png>)
-![Work](<assets\screenshots\Screenshot (03).png>)
-![Contact](<assets\screenshots\Screenshot (04).png>)
+![(Homepage)](<assets/screenshots/Screenshot (01).png>)   
+![About-Me](assets\screenshots\Screenshot (02).png)   
+![Work](assets\screenshots\Screenshot (03).png)
+![Contact](assets\screenshots\Screenshot (04).png)
 
 ## Installation
 1. Clone the repository: git clone git@github.com:jorjik81/fluffy_flower2.git
