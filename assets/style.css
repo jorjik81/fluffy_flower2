@@ -1,7 +1,12 @@
+:root {
+    font-size: 16px; /* Base font size */
+  }
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    
 }
 
 body {
@@ -22,6 +27,7 @@ body {
 
 .header h1 .seo { /* changes the color for capital letters in H1 element*/
     color: #c83af4;
+    font-size: 47px;
     
 }
 
@@ -178,5 +184,50 @@ footer {                            /*sets up footer*/
     color: rgb(199, 78, 78);
     text-align: center;
     padding: 15px;
-    
+}
+
+@media screen and (max-width: 375px) and (orientation: portrait) {
+    body {
+      font-size: 6px; 
+    }
+    /* Additional styles for Mobile Phones in Portrait mode */
+  }
+  
+ 
+  @media screen and (max-width: 375px) and (orientation: landscape) {
+    body {
+      font-size: 6px; 
+    }
+    /* Additional styles for Mobile Phones in Landscape mode */
+  }
+  
+ 
+  @media screen and (min-width: 376px) and (max-width: 768px) and (orientation: portrait) {
+    body {
+      font-size: 8px; 
+    /* Additional styles for Tablets in Portrait mode */
+  }
+  
+}
+  @media screen and (min-width: 376px) and (max-width: 768px) and (orientation: landscape) {
+    body {
+      font-size: 8px; 
+    }
+    /* Additional styles for Tablets in Landscape mode */
+  }
+  
+  
+  @media screen and (min-width: 769px) and (max-width: 1024px) {
+    body {
+      font-size: 10px; 
+    }
+    /* Additional styles for Laptops */
+  }
+  
+  
+  @media screen and (min-width: 1025px) {
+    body {
+      font-size: 16px; 
+    }
+    /* Additional styles for Desktops */\
 }
