@@ -14,9 +14,9 @@ This repository contains the code for my personal website. The website showcases
 The website serves as a portfolio to showcase my various interests and talents. It includes sections about me, my work, and how to get in touch with me.
 
 ## Screenshots
-![(Homepage)](<assets/screenshots/Screenshot (01).png.>)   
+![(Homepage)](<assets/screenshots/Screenshot (21).png>)   
 ![(About)](<assets/screenshots/Screenshot (02).png>)   
-![(Work)](<assets/screenshots/Screenshot (03).png>)
+![(Work)](<assets/screenshots/Screenshot (22).png>)
 ![(Contact)](<assets/screenshots/Screenshot (04).png>)
 
 ## Installation
