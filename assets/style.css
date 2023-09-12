@@ -1,12 +1,13 @@
 :root {
-    font-size: 16px; /* Base font size */
-  }
+    font-size: 16px;
+    /* Base font size */
+}
 
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    
+
 }
 
 body {
@@ -14,28 +15,32 @@ body {
 }
 
 .header {
-    padding: 2px 0px 0px px;                          /* changes the size of the header section*/
+    padding: 2px 0px 0px px;
+    /* changes the size of the header section*/
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
     background-color: #11252f;
     color: #becb91e1;
 }
 
 .header h1 {
-    display: inline-block; /* sets elements in one line*/
+    display: inline-block;
+    /* sets elements in one line*/
     font-size: 47px;
 }
 
-.header h1 .seo { /* changes the color for capital letters in H1 element*/
+.header h1 .seo {
+    /* changes the color for capital letters in H1 element*/
     color: #c83af4;
     font-size: 47px;
-    
+
 }
 
-.header nav { /* adjusts position of nav links*/
+.header nav {
+    /* adjusts position of nav links*/
     margin-right: 10px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
-    font-size: 22px;
+    /* font-size: 22px;*/
 }
 
 .header nav ul {
@@ -43,7 +48,8 @@ body {
 }
 
 .header nav ul li {
-    display: inline-block;      /* sets all header elements at in line at the top of the page*/
+    display: inline-block;
+    /* sets all header elements at in line at the top of the page*/
     margin-left: 30px;
 }
 
@@ -51,57 +57,69 @@ body {
     color: #ebcdcf;
     text-decoration: underline;
     box-sizing: border-box;
-    background-color: #587758;  /* Set the background color of the navigation box */
-    border: 1px solid rgba(236, 237, 142, 0.514); /* Set the black border of 1px */
-    border-radius: 5px; /* Add some border radius for a rounded corner effect */
-    padding: 3px 10px 10px 10px; /* Add some padding to the navigation box */
+    background-color: #587758;
+    /* Set the background color of the navigation box */
+    border: 1px solid rgba(236, 237, 142, 0.514);
+    /* Set the black border of 1px */
+    border-radius: 5px;
+    /* Add some border radius for a rounded corner effect */
+    padding: 3px 10px 10px 10px;
+    /* Add some padding to the navigation box */
 }
 
 nav {
     margin-top: 1%;
 }
 
-.him {                 
-    width: 100%;        /* image in the header*/
+.him {
+    line-clamp: calc (3px, 3px);
+    width: 100%;
+    /* image in the header*/
     height: 120px;
     margin: 1% 0% 0% 0%;
     padding: 0% 0 0% 0%;
 }
 
 h2 {
-    float: right;   /*titles on the right side*/
+    float: right;
+    /*titles on the right side*/
     font-size: 35px;
     margin-right: 1%
 }
 
 .inheader {
-    display: flow-root; /* places" LIfe as Art inside of the box*/ 
+    display: flow-root;
+    /* places" LIfe as Art inside of the box*/
 }
 
 .about,
-.contact,                /*links in the header*/
+.contact,
+/*links in the header*/
 .work {
     display: flex;
     margin-top: 3%;
-   
+
 }
 
 .contact {
     margin-bottom: 5%;
 }
 
-section .heading {          /* texst in About me*/
+section .heading {
+    /* texst in About me*/
     width: 25%;
     text-align: center;
-    
+
 }
-h1{
-    padding: 5px 5px;  
+
+h1 {
+    padding: 5px 5px;
     margin: 8px 50px;
     border-radius: 5px;
     background-color: #eae15f;
     color: rgb(28, 27, 27);
 }
+
 p {
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     font-size: 24px;
@@ -115,17 +133,20 @@ section .content {
     margin-right: 100px;
 }
 
- .work img:hover {  /*changes opacity of images when cursor moves over*/
+.work img:hover {
+    /*changes opacity of images when cursor moves over*/
     opacity: .6;
-} 
-
-.firstImg, .smallImg {
-    position: relative;
-    
-    
 }
 
-.firstImg img {  /* big image*/
+.firstImg,
+.smallImg {
+    position: relative;
+
+
+}
+
+.firstImg img {
+    /* big image*/
     width: 100%;
     height: 400px;
     object-fit: cover;
@@ -136,8 +157,11 @@ section .content {
 
 
 
-.firstImg figcaption, .smallImg figcaption /*smaller images*/
-{ 
+.firstImg figcaption,
+.smallImg figcaption
+
+/*smaller images*/
+    {
     position: absolute;
     bottom: 23px;
     padding: 8px;
@@ -150,19 +174,22 @@ section .content {
     grid-template-columns: auto auto;
     grid-gap: 10px;
     justify-content: center;
-    
+
 }
 
-.grid img       /* sets the grid*/
-{
+.grid img
+
+/* sets the grid*/
+    {
     width: 34vw;
-    height:25vw;
+    height: 25vw;
     border: 3px solid rgb(48, 36, 36);
     margin-bottom: 7px;
     border-radius: 3px;
 }
 
-.content ul {          /* sets up contact section*/
+.content ul {
+    /* sets up contact section*/
     margin-top: 20px;
     padding: 0;
     display: flex;
@@ -171,7 +198,7 @@ section .content {
 }
 
 .content li {
-    list-style-type:none;
+    list-style-type: none;
 }
 
 .content .phone li a {
@@ -179,55 +206,66 @@ section .content {
     color: #11252f;
 }
 
-footer {                            /*sets up footer*/
+footer {
+    /*sets up footer*/
     background-color: #11252f;
     color: rgb(199, 78, 78);
     text-align: center;
     padding: 15px;
 }
 
-@media screen and (max-width: 375px) and (orientation: portrait) {
-    body {
-      font-size: 6px; 
+
+/* Additional styles for Desktops */
+
+@media screen and (max-width: 700px) {
+
+    .about,
+    .work,
+    .contact {
+        display: block;
+        text-align: center;
     }
-    /* Additional styles for Mobile Phones in Portrait mode */
-  }
-  
- 
-  @media screen and (max-width: 375px) and (orientation: landscape) {
-    body {
-      font-size: 6px; 
+
+    section .heading,
+    section .content {
+        width: 100%;
     }
-    /* Additional styles for Mobile Phones in Landscape mode */
-  }
-  
- 
-  @media screen and (min-width: 376px) and (max-width: 768px) and (orientation: portrait) {
-    body {
-      font-size: 8px; 
-    /* Additional styles for Tablets in Portrait mode */
-  }
-  
-}
-  @media screen and (min-width: 376px) and (max-width: 768px) and (orientation: landscape) {
-    body {
-      font-size: 8px; 
+
+    section .content {
+        padding-left: 30px;
+        padding-right: 30px;
     }
-    /* Additional styles for Tablets in Landscape mode */
-  }
-  
-  
-  @media screen and (min-width: 769px) and (max-width: 1024px) {
-    body {
-      font-size: 10px; 
+
+    header {
+        display: flex;
+        flex-direction: column;
     }
-    /* Additional styles for Laptops */
-  }
-  
-  
-  @media screen and (min-width: 1025px) {
-    body {
-      font-size: 16px; 
+
+    header h1 {
+        text-align: center;
     }
-    /* Additional styles for Desktops */\
+
+    nav {
+        float: none;
+        margin-bottom: 15px;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    nav ul li {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .grid img {
+        width: 100%;
+    }
+
+    .contact ul {
+        flex-direction: column;
+    }
+
+    .contact ul li {
+        margin-bottom: 5px;
+    }
 }
